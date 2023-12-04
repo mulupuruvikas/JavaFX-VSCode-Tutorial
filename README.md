@@ -34,7 +34,7 @@ Now, it's time to create the project. <br />
 **For Windows keyboards/users:** Type Ctrl+Shift+P in VS Code. <br />
 **For Mac users:** Type Command+Shift+P in VS Code.
 
-You should get a prompt at the top of your window. Type java, and then select "Create Java Project':
+You should get a prompt at the top of your window. Type "Java", and then select "Create Java Project'. Your commands will be in a different ordering than mine:
 <img src="assets/create-javafx-proj.png" alt="create-javafx-proj">
 
 Once you click this, you should get a option to select which type of Java Project you want. Select "JavaFX":
