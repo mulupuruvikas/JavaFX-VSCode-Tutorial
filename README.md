@@ -34,7 +34,7 @@ Now, it's time to create the project. <br />
 **For Windows keyboards/users:** Type Ctrl+Shift+P in VS Code. <br />
 **For Mac users:** Type Command+Shift+P in VS Code.
 
-You should get a prompt at the top of your window. Type "Java", and then select "Create Java Project'. Your commands will be in a different ordering than mine:
+You should get a prompt at the top of your window. Type "Java", and then select "Create Java Project'. Your commands will be in a different ordering than mine: <br />
 <img src="assets/create-javafx-proj.png" alt="create-javafx-proj">
 
 Once you click this, you should get a option to select which type of Java Project you want. Select "JavaFX":
@@ -42,8 +42,7 @@ Once you click this, you should get a option to select which type of Java Projec
 
 Next, you will be prompted to input the groupID of your project. The makers of IntelliJ claim that this needs to be the "name of the package that will be created together with the project", which basically just means that the folder that your project lives in will have this name, so just format it as "com.PROJECT-NAME".
 
-I will be naming my project "javafxtutorial"
-.
+I will be naming my project "javafxtutorial". <br />
 <img src="assets/groupID.png" alt="groupID">
 
 Next, you will be asked to input the artifact ID of your project in a "Create Maven Project" popup. I'm relatively sure you will never need to understand what this means, so just name it the same as your project name without the "com." at the beginning
@@ -70,7 +69,7 @@ To run your project, click the dropdown for `Plugins > javafx > run`.
 
 
 **Trouble with the Maven Dropdown?**
-from Terminal, type: 
+from Terminal, type: <br />
 `mvn javafx:run -f "/YOUR/FULL/ADDRESS/FROM/HOME/javafxtutorial/pom.xml"`
 
 ...except replace 'javafxtutorial' with your project name.
