@@ -3,7 +3,7 @@
 # Creating a JavaFX Project in VS Code
 
 This tutorial is for those of you who have been coding in VS Code for this entire class.
-Note: If you have IntelliJ already installed in a convenient machine, then I highly recommend using that instead, as it is specifically designed to run Java programs.
+>Note: If you have IntelliJ already installed in a convenient machine, then I highly recommend using that instead, as it is specifically designed to run Java programs.
 
 ## VS Code
 
@@ -17,15 +17,15 @@ You can see what java version you have installed by typing `java --version` in T
 
 ## Installing VS Code Extensions
 To be able to run JavaFX Programs in VS Code, you will need the following extensions:
-    * [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
-    * [Maven for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven)
+* [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+* [Maven for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven)
 
 To download an extension, click on the extensions tab:
 
 <img src="assets/extensions.png" alt="extensions">
 
 Search for "Extension Pack for Java" and install the package. Do the same for "Maven for Java":
-<img src="assets/extension-pack-ofr-java.png" alt="extension-pack-for-java">
+<img src="assets/extension-pack-for-java.png" alt="extension-pack-for-java">
 
 After installing the extensions, you might have to close and reopen VSCode. If the installation process completed without any error, you should get a VS Code notification for it, or the buttons for the exension shouls say "Disable" or "Uninstall" like it does for me above.
 
@@ -69,7 +69,7 @@ To run your project, click the dropdown for `Plugins > javafx > run`.
 
 **Trouble with the Maven Dropdown?**
 from Terminal, type:
-`mvn javafx:run -f "/YOUR/FULL/ADDRESS/FROM/HOME/javafxtutorial/pom.xml"'
+`mvn javafx:run -f "/YOUR/FULL/ADDRESS/FROM/HOME/javafxtutorial/pom.xml"`
 
 ...except replace 'javafxtutorial' with your project name.
 
