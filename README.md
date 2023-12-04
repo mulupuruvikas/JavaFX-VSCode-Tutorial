@@ -27,7 +27,7 @@ To download an extension, click on the extensions tab:
 Search for "Extension Pack for Java" and install the package. Do the same for "Maven for Java":
 <img src="assets/extension-pack-for-java.png" alt="extension-pack-for-java">
 
-After installing the extensions, you might have to close and reopen VSCode. If the installation process completed without any error, you should get a VS Code notification for it, or the buttons for the exension shouls say "Disable" or "Uninstall" like it does for me above.
+After installing the extensions, you might have to close and reopen VSCode. If the installation process completed without any error, you should get a VS Code notification for it, or the buttons for the exension should say "Disable" or "Uninstall" like it does for me above.
 
 ### Creating the Project
 Now, it's time to create the project. 
@@ -68,7 +68,7 @@ To run your project, click the dropdown for `Plugins > javafx > run`.
 
 
 **Trouble with the Maven Dropdown?**
-from Terminal, type:
+from Terminal, type: 
 `mvn javafx:run -f "/YOUR/FULL/ADDRESS/FROM/HOME/javafxtutorial/pom.xml"`
 
 ...except replace 'javafxtutorial' with your project name.
