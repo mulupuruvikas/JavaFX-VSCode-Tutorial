@@ -15,6 +15,11 @@ You might want to get yourself familiar to VSCode if you haven’t used it befor
 **IMPORTANT:** Make sure you have at least JDK v.11.0 installed. If you are SSHing into a lab machine through VS Code, you don't need to worry about this.
 You can see what java version you have installed by typing <br /> `java --version` in Terminal.
 
+## SSHing into a CSE Lab Machine 
+
+I **HIGHLY** recommend that you SSH into a CSE Lab Machine. THere is a tutorial on how to do this [here](https://shamby87.github.io/VSCode-tutorial/)
+If you cannot do this, you might have to take some extra steps with downloading Maven later on onto your machine.
+
 ## Installing VS Code Extensions
 To be able to run JavaFX Programs in VS Code, you will need the following extensions:
 * [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
@@ -74,6 +79,8 @@ from Terminal, type: <br />
 
 ...except replace 'javafxtutorial' with your project name.
 <br />
+
+**If none of these options are working** it might be because Maven needs to be installed. Download Apache Maven [here](https://maven.apache.org/download.cgi). I recommend that you download the Link version of the Source zip archive (it should be under the `Files` subheader). <br \>
 Once you click the play button on run, you should see a screen like this
 
 <img src="assets/application.png" alt="application">
