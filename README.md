@@ -80,7 +80,7 @@ from Terminal, type: <br />
 ...except replace 'javafxtutorial' with your project name.
 <br />
 
-**If none of these options are working** it might be because Maven needs to be installed. Download Apache Maven [here](https://maven.apache.org/download.cgi). I recommend that you download the Link version of the Source zip archive (it should be under the `Files` subheader). <br />
+**If none of these options are working** it might be because Maven needs to be installed. Download Apache Maven [here](https://maven.apache.org/download.cgi). I recommend that you download the Link version of the Source zip archive (it should be under the `Files` subheader). <br /> <br />
 Once you click the play button on run, you should see a screen like this
 
 <img src="assets/application.png" alt="application">
