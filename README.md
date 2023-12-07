@@ -17,7 +17,7 @@ You can see what java version you have installed by typing <br /> `java --versio
 
 ## SSHing into a CSE Lab Machine 
 
-I **HIGHLY** recommend that you SSH into a CSE Lab Machine. THere is a tutorial on how to do this [here](https://shamby87.github.io/VSCode-tutorial/)
+I **HIGHLY** recommend that you SSH into a CSE Lab Machine. There is a tutorial on how to do this [here](https://shamby87.github.io/VSCode-tutorial/) <br />
 If you cannot do this, you might have to take some extra steps with downloading Maven later on onto your machine.
 
 ## Installing VS Code Extensions
